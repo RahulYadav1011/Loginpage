@@ -13,7 +13,7 @@ function fun(){
      attempt--;
      
      alert("You Have Left "+attempt+" Attempt");
-      window.location.href='https://rahulyadav1011.github.io/loginpage/pages/login.html';
+      window.location='https://rahulyadav1011.github.io/loginpage/pages/login.html';
 
      if(attempt==0){
          document.getElementById("Name").disable=true;

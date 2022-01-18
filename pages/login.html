@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Let Plus: Login</title>
+    <script src="../JavaScript/from.js"></script>
+     <link rel="stylesheet" href="/Css/login.css">
+</head>
+
+<body>
+    <div class="loginClass">
+        <form  method="post">
+            <label for="Name">User Name</label> <br>
+            <input type="text" name="Name" id="Name"><br>
+            <br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" required="*[0-9,a-z,A-Z]{8-10}$"><br>
+            <br>
+            <div id="loginSubmitButton">
+                <button type="submit" onclick="fun()" id="submit" >Log-In</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

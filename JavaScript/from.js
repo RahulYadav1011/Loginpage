@@ -11,9 +11,8 @@ function fun(){
  }
  else{
      attempt--;
-     //alert("You Have Left "+attempt+" Attempt");
-     document.getElementById("Name").innerHTML=  
-" <img src='http://www.javatpoint.com/javascriptpages/images/unchecked.gif'/> Password must be greater than 6";  
+     alert("You Have Left "+attempt+" Attempt");
+ 
 
      if(attempt==0){
          document.getElementById("Name").disable=true;

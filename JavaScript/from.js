@@ -1,5 +1,5 @@
 function fun(){
-    var attempt=3;
+    
  var name = document.getElementById("Name").value;
  var password =document.getElementById("password").value;
  console.log("name is:"+name);
@@ -11,6 +11,7 @@ function fun(){
  }
  else{
      attempt--;
+     
      alert("You Have Left "+attempt+" Attempt");
  
 

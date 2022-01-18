@@ -12,8 +12,8 @@ function fun(){
  else{
      attempt--;
      
-     alert("You Have Left "+attempt+" Attempt");
-      window.location='https://rahulyadav1011.github.io/loginpage/pages/login.html';
+     //alert("You Have Left "+attempt+" Attempt");
+      //window.location='https://rahulyadav1011.github.io/loginpage/pages/login.html';
 
      if(attempt==0){
          document.getElementById("Name").disable=true;

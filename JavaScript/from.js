@@ -6,14 +6,14 @@ function fun(){
  var attempt=3;
  if(name=="Rahul" && password=="admin"){
      alert("Login Succesful");
-     window.location.href("file:///C:/Users/Dell/Documents/ToLetPlus/index.html");
+     window.location.href("https://rahulyadav1011.github.io/loginpage/index.html");
      return false;
  }
  else{
      attempt--;
      
      alert("You Have Left "+attempt+" Attempt");
- 
+      window.location.href='https://rahulyadav1011.github.io/loginpage/pages/login.html';
 
      if(attempt==0){
          document.getElementById("Name").disable=true;
